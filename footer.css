@@ -1,0 +1,11 @@
+.footer {
+  min-height: 80px;
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+}
+
+.footer_theme_dark {
+  background-color: black;
+  color: white;
+}

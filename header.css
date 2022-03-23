@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  min-height: 80px;
+}
+
+.header_theme_dark {
+  background-color: black;
+  color: white;
+}
