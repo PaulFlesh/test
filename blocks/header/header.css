@@ -15,14 +15,13 @@ body {
   top: 30px;
   left: 64px;
   z-index: 99;
-  height: 183px;
-  width: 32px;
+  width: 183px;
+  height: 32px;
 }
 
 .title {
   display: flex;
-  position: absolute;
-  left: 64px;
+  margin-left: 64px;
   aligh-items: center;
   z-index: 98;
   min-height: 96px;
@@ -45,6 +44,8 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
+  width: 765px;
+  height: 608px; 
 }
 
 .square-pic {
