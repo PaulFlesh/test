@@ -10,3 +10,41 @@
   background-color: black;
   color: white;
 }
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 99;
+}
+
+.title {
+  display: flex;
+  left: 64px;
+  aligh-items: center;
+  z-index: 98;
+  min-height: 96px;
+  font-size: 106px;
+  font-weight: bold;
+}
+
+.subtitle {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 97;
+  min-height: 25px;
+  font-size: 18px;
+}
+
+.main-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
+}
