@@ -1,11 +1,15 @@
 body {
   font-family: 'Inter', 'Arial', sans-serif;
+  min-width: 1100px;
+  max-width: 1600px;
+  color: #000000;
 }
 
 .header {
   display: flex;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
 }
 
 .logo {
@@ -38,6 +42,10 @@ body {
   width: 388px;
   font-weight: normal;
 }
+.link {
+  text-decoration: none;
+  color: #2f80ed;
+}
 
 .main-illustration {
   position: absolute;
@@ -51,4 +59,5 @@ body {
   position: absolute;
   top: 64px;
   right: 0;
+  background-color: #2f80ed;
 }
