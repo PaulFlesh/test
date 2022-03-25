@@ -25,7 +25,7 @@
   height: 32px;
 }
 
-.title {
+.header__title {
   align-self: center;
   margin-left: 64px;
   z-index: 98;
@@ -35,7 +35,7 @@
   width: 730px;
 }
 
-.subtitle {
+.header__subtitle {
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -45,12 +45,12 @@
   width: 388px;
   font-weight: normal;
 }
-.link {
+.header__subtitle_link {
   text-decoration: none;
   color: #2f80ed;
 }
 
-.main-illustration {
+.header__main-illustration {
   position: absolute;
   bottom: 0;
   right: 0;
