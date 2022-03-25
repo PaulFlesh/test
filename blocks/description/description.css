@@ -1,19 +1,24 @@
 .two-columns {
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 100px 0;
 }
 
 .two-columns_brief {
-  
+  width: 175px;
 }
 
 .two-columns_main-text {
-  
+  width: 80&;
+  min-width: 784px;
 }
 
 .two-columns_paragraph {
-  
+  margin-bottom: 30px;
 }
 
 .two-columns_span-accent {
-  
+  font-weight: bold;
 }
