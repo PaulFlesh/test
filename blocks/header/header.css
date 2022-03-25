@@ -1,14 +1,13 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 80px;
-  min-height: 80px;
+body {
+  font-family: 'Inter', 'Arial', sans-serif;
 }
 
-.header_theme_dark {
-  background-color: black;
-  color: white;
+.header {
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+  min-height: 600px;
+  max-height: 756px;
 }
 
 .logo {
@@ -26,6 +25,7 @@
   min-height: 96px;
   font-size: 106px;
   font-weight: bold;
+  width: 730px;
 }
 
 .subtitle {
@@ -35,6 +35,7 @@
   z-index: 97;
   min-height: 25px;
   font-size: 18px;
+  width: 388px;
 }
 
 .main-illustration {
