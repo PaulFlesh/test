@@ -7,6 +7,7 @@ body {
 
 .header {
   display: flex;
+  position: relative;
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
@@ -22,9 +23,8 @@ body {
 }
 
 .title {
-  display: flex;
+  align-self: center;
   margin-left: 64px;
-  aligh-items: center;
   z-index: 98;
   min-height: 96px;
   font-size: 106px;
