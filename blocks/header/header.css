@@ -15,10 +15,13 @@ body {
   top: 30px;
   left: 64px;
   z-index: 99;
+  height: 183px;
+  width: 32px;
 }
 
 .title {
   display: flex;
+  position: absolute;
   left: 64px;
   aligh-items: center;
   z-index: 98;
