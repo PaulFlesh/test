@@ -11,6 +11,7 @@
 
 .two-columns__brief {
   width: 175px;
+  margin: 0;
   line-height: 1.2;
   font-weight: normal;
   font-size: 18px;
@@ -25,7 +26,7 @@
 
 .two-columns__paragraph {
   line-height: 34px;
-  margin-top: 30px;
+  margin: 30px 0 0 0;
 }
 .two-columns__paragraph:first-of-type {
   margin: 0;
