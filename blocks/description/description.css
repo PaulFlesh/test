@@ -23,9 +23,9 @@
 
 .two-columns_paragraph {
   line-height: 34px;
-  margin: 0 0 30px 0;;
+  margin-top: 30px;
 }
-.two-columns_paragraph:last-of-type {
+.two-columns_paragraph:first-of-type {
   margin: 0;
 }
 
