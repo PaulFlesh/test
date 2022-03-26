@@ -23,14 +23,14 @@
   font-size: 24px;
 }
 
-.two-columns_paragraph {
+.two-columns__paragraph {
   line-height: 34px;
   margin-top: 30px;
 }
-.two-columns_paragraph:first-of-type {
+.two-columns__paragraph:first-of-type {
   margin: 0;
 }
 
-.two-columns_span-accent {
+.two-columns__span-accent {
   font-weight: bold;
 }
