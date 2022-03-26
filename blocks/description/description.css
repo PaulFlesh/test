@@ -7,17 +7,13 @@
   justify-content: space-between;
   width: 80%;
   margin-top: 100px;
-  margin-bottom: 100px;
 }
 
-.two-columns_brief {
+.two-columns__brief {
   width: 175px;
   line-height: 1.2;
-}
-.two-columns_brief > h3 {
   font-weight: normal;
   font-size: 18px;
-  margin: 0;
   color: #2f80eb;
 }
 
