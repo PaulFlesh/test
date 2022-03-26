@@ -1,12 +1,10 @@
 .description {
-  display: flex;
-  justify-content: center;
+  margin-top: 100px;
 }
 .two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin-top: 100px;
 }
 
 .two-columns__brief {
