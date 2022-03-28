@@ -24,7 +24,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 920px;
-  margin: 0 auto;
+  margin: 60px auto 0;
 }
 
 .cards__item {
@@ -36,17 +36,18 @@
   margin-right: 0;
 }
 
+.cards__image {
+  margin: 0 40px;
+  width: 160px;
+  height: 160px;
+}
+
 .cards__title {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-}
-
-.cards__image {
-  margin: 60px 40px 43px 40px;
-  width: 160px;
-  height: 160px;
+  margin-top: 43px;
 }
 
 .cards-description {
@@ -54,4 +55,5 @@
   font-size: 18px;
   font-weight: normal;
   text-align: center;
+  margin-top: 16px;
 }
