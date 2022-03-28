@@ -23,8 +23,6 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
-  flex-direction: row;
   width: 920px;
   margin: 0 auto;
 }
