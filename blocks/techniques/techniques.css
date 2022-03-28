@@ -7,7 +7,6 @@
   display: flex;
   flex-wrap: wrap;
   width: 920px;
-  margin: 0 auto;
 }
 
 .cards__item {
@@ -29,7 +28,7 @@
   margin-top: 43px;
 }
 
-.cards-description {
+.cards__description {
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
