@@ -1,6 +1,4 @@
 .techniques {
-  display: flex;
-  justify-content: center;
   margin: 0 auto;
 }
 
@@ -9,6 +7,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  margin: 0 auto;
 }
 
 .section__subtitle {
@@ -16,11 +15,13 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin: 20px 0 0 0;
+  margin: 20px auto 0;
 }
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
   flex-direction: row;
   justify-content: center;
   width: 920px;
@@ -28,7 +29,15 @@
 }
 
 .cards__item {
-  
+  margin: 0 100px;
+}
+
+.cards__item:first-of-type {
+  margin: 0;
+}
+
+.cards__item:last-of-type {
+  margin: 0;
 }
 
 .cards__title {
@@ -39,6 +48,8 @@
 
 .cards__image {
   margin: 60px 40px 43px 40px;
+  width: 160px;
+  height: 160px;
 }
 
 .cards-description {
