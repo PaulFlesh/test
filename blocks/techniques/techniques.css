@@ -6,12 +6,12 @@
   display: flex;
   flex-wrap: wrap;
   width: 920px;
-  margin: 60px auto 0;
+  margin: 0 auto;
 }
 
 .cards__item {
   max-width: 200px;
-  margin-right: 100px;
+  margin: 60px 50px 0 50px;
 }
 
 .cards__item:last-of-type {
