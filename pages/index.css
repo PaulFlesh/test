@@ -16,3 +16,21 @@
 .section__start {
   margin: 100px auto 0;
 }
+
+.section__title {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section__subtitle {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 20px auto 0;
+  text-align: center;
+}
