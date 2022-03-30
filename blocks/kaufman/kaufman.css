@@ -1,7 +1,7 @@
 .kaufman {
   background-color: black;
   color: white;
-  padding-top: 90px;
+  padding: 90px 0;
 }
 
 .table_theme_dark {
@@ -11,6 +11,7 @@
 .table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
+  vertical-align: top;
 }
 
 .table__heading_theme_dark {
