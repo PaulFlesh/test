@@ -15,8 +15,11 @@
   padding: 60px 0 40px;
   margin: 0 auto;
   display: flex;
-  flex-basis: 711px;
   justify-content: space-between;
+}
+
+.footer__column_content-copyright {
+  flex-basis: 711px;
 }
 
 .footer__author {
