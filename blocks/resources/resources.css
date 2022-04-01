@@ -11,14 +11,14 @@
 }
 
 .resources__logo_arzamas {
-  background-image: url(images/logo/resources-arzamas.svg);
+  background-image: url(/images/logo/resources-arzamas.svg);
 }
 .resources__logo_n1 {
-  background-image: url(images/logo/resources-n1.svg);
+  background-image: url(/images/logo/resources-n1.svg);
 }
 .resources__logo_strelka {
-  background-image: url(images/logo/resources-strelka.svg);
+  background-image: url(/images/logo/resources-strelka.svg);
 }
 .resources__logo_polka {
-  background-image: url(images/logo/resources-polka.svg);
+  background-image: url(/images/logo/resources-polka.svg);
 }
