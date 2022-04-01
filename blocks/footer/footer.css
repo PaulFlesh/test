@@ -9,3 +9,20 @@
   background-color: black;
   color: white;
 }
+
+.footer__columns {
+  width: 90%;
+  margin: 60px auto 40px;
+  display: flex;
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+
+.footer__column-heading {
+  font-weight: bold;
+  
+}
+
+.footer__column-links {
+  text-decoration: none;
+}
