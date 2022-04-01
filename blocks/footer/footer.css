@@ -22,6 +22,11 @@
   flex-basis: 711px;
 }
 
+.logo__place_footer {
+  width: 183px;
+  height: 35px;
+}
+
 .footer__author {
   line-height: 25px;
   font-size: 18px;
