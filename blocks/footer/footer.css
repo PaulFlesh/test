@@ -18,11 +18,19 @@
   justify-content: space-between;
 }
 
+.footer__author {
+  margin: 18px 0;
+}
+
 .footer__column-heading {
   font-weight: bold;
   
 }
 
 .footer__column-links {
+  margin: 20px 0 16px;
+}
+
+.footer__column-link {
   text-decoration: none;
 }
