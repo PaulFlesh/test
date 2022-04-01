@@ -6,6 +6,11 @@
   justify-content: space-between;
 }
 
+.resources__logo {
+  width: 240px;
+  height: 36px;
+}
+
 .resources__logo_arzamas {
   background-image: url(../../images/logo/resources-arzamas.svg);
 }
