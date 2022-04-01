@@ -19,15 +19,22 @@
 }
 
 .footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
   margin: 18px 0;
 }
 
 .footer__column-heading {
+  line-height: 18px;
+  font-size: 18px;
   font-weight: bold;
-  
 }
 
 .footer__column-links {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: normal;
   margin: 20px 0 16px;
 }
 
