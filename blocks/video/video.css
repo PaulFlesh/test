@@ -1,1 +1,12 @@
+.video__iframes {
+  margin: 50px auto 0;
+  position: relative;
+}
 
+.video__iframe {
+  position: absolute;
+  width: 515px;
+  height: 316px;
+  border: none;
+  overflow: hidden;
+}
