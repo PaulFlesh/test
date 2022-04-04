@@ -50,6 +50,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 20px 0 16px;
+  list-style: none;
 }
 
 .footer__column-link {
