@@ -1,10 +1,11 @@
 .video__iframes {
   margin: 50px auto 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .video__iframe {
   width: 515px;
   height: 316px;
+  margin-right: 20px;
 }
