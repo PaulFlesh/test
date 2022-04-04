@@ -1,6 +1,7 @@
 .feynman {
   position: relative;
   margin-top: 100px;
+  height: 890px;
 }
 
 .feynman__title {
@@ -9,6 +10,7 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
+  text-align: center;
 }
 
 .feynman__subtitle {
@@ -33,4 +35,5 @@
   bottom: 0;
   width: 867px;
   height: 637px;
+  z-index: -95;
 }
