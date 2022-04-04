@@ -43,6 +43,10 @@
   font-weight: bold;
 }
 
+.footer__column-list {
+  line-height: 25px;
+}
+
 .footer__column-links {
   display: flex;
   flex-direction: column;
