@@ -6,6 +6,7 @@
 
 .table_theme_dark {
   margin: 0 auto;
+  border-spacing: 15px 80px;
 }
 
 .table__cell_theme_dark {
