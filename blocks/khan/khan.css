@@ -39,13 +39,13 @@
   display: inline;
 }
 
-.khan__image {
+.khan__book-pic {
   width: 620px;
   height: 608px; 
   margin-right: 48px;
 }
 
-.khan__link {
+.khan__buy-link {
   text-decoration: none;
   color: #2f80ed;
   line-height: 42px;
