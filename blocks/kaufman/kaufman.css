@@ -44,7 +44,8 @@
   width: 877px;
   height: 877px;
   position: absolute;
+  top: 0;
   right: -210px;
-  z-index: -96;
-  animation: rotation 1s linear infinite alternate;
+  z-index: 2;
+  animation: rotation 10s linear infinite;
 }
