@@ -1,7 +1,17 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .kaufman {
   background-color: black;
   color: white;
   padding: 90px 0;
+  overflow: hidden;
 }
 
 .table_theme_dark {
@@ -26,4 +36,13 @@
   font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  right: -210px;
+  z-index: -96;
+  animation: rotation 1s linear infinite alternate;
 }
