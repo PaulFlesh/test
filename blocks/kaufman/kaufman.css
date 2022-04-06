@@ -18,6 +18,7 @@
 .table_theme_dark {
   margin: 0 auto;
   border-spacing: 15px 80px;
+  z-index: 1;
 }
 
 .table__cell_theme_dark {
