@@ -1,0 +1,6 @@
+@keyframes rotation {
+  from {
+    deg(0); }
+  to {
+    deg(360); }
+}
