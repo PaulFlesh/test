@@ -40,6 +40,6 @@
   z-index: 2;
 }
 
-.link-opacity {
+.link-opacity:hover {
   opacity: .7;
 }
