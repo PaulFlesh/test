@@ -43,3 +43,7 @@
 .link-opacity:hover {
   opacity: .7;
 }
+
+.link-transition:hover {
+  color: black;
+}
