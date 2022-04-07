@@ -45,5 +45,5 @@
 }
 
 .link-transition:hover {
-  color: black;
+  transition: scale(105%);
 }
