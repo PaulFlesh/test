@@ -39,3 +39,7 @@
   text-align: center;
   z-index: 2;
 }
+
+.link-opacity {
+  opacity: .7;
+}
