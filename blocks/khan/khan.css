@@ -12,7 +12,7 @@
 .khan__title {
   line-height: 1.15;
   font-size: 60px;
-  font-weight: bold;
+  font-weight: 700;
   margin: 0;
 }
 
@@ -27,7 +27,7 @@
   margin-top: 36px;
   line-height: 1.15;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .khan__quote-author-subline {
@@ -42,7 +42,7 @@
 }
 
 .khan__book-pic {
-  width: 600px;
+  width: 575px;
   height: 660px; 
   margin-right: 48px;
 }
