@@ -27,6 +27,7 @@
   font-weight: bold;
   margin: 0 auto;
   text-align: center;
+  z-index: 2;
 }
 
 .section__subtitle {
@@ -36,4 +37,5 @@
   font-weight: normal;
   margin: 20px auto 0;
   text-align: center;
+  z-index: 2;
 }
