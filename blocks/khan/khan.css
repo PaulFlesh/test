@@ -38,7 +38,7 @@
 
 .khan__book-container {
   margin-top: 68px;
-  display: inline;
+  display: inline-block;
 }
 
 .khan__book-pic {
