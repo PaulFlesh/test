@@ -1,12 +1,3 @@
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .kaufman {
   position: relative;
   background-color: black;
@@ -49,5 +40,4 @@
   top: 0;
   right: -210px;
   z-index: 1;
-  animation: rotation 40s linear infinite;
 }
