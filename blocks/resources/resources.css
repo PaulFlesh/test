@@ -11,8 +11,12 @@
   height: 38px;
   background: no-repeat center;
   background-size: contain;
+  transition: box-shadow .3s ease;
 }
 
+.resources__logo:hover {
+  box-shadow: 0 0 30px black;
+}
 .resources__logo_arzamas {
   background-image: url(../../images/logo/resources-arzamas.svg);
 }
