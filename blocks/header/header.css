@@ -46,10 +46,6 @@
   width: 388px;
   font-weight: normal;
 }
-.header__subtitle_link {
-  text-decoration: none;
-  color: #2f80ed;
-}
 
 .header__main-illustration {
   position: absolute;
