@@ -20,7 +20,7 @@
 .header__title {
   align-self: center;
   margin-left: 64px;
-  z-index: 98;
+  z-index: 5;
   line-height: 96px;
   font-size: 106px;
   font-weight: 700;
@@ -31,7 +31,7 @@
   position: absolute;
   bottom: 30px;
   left: 64px;
-  z-index: 97;
+  z-index: 5;
   line-height: 25px;
   font-size: 18px;
   width: 388px;
@@ -44,5 +44,5 @@
   right: 0;
   width: 765px;
   height: 608px;
-  z-index: 2;
+  z-index: 1;
 }
