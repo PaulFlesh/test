@@ -17,15 +17,6 @@
   background-color: #2f80ed;
 }
 
-.header__logo {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 99;
-  width: 183px;
-  height: 32px;
-}
-
 .header__title {
   align-self: center;
   margin-left: 64px;
