@@ -12,6 +12,7 @@
   font-size: 120px;
   font-weight: 700;
   text-align: center;
+  z-index: 1;
 }
 
 .feynman__subtitle {
@@ -20,6 +21,7 @@
   font-size: 36px;
   font-weight: normal;
   text-align: center;
+  z-index: 1;
 }
 
 .feynman__link {
@@ -30,6 +32,7 @@
   color: #2f90ed;
   line-height: 51px;
   font-size: 36px;
+  z-index: 1;
 }
 
 .feynman__image {
@@ -38,5 +41,4 @@
   bottom: 0;
   width: 867px;
   height: 637px;
-  z-index: -95;
 }
