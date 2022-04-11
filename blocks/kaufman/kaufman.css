@@ -6,32 +6,6 @@
   overflow: hidden;
 }
 
-.table_theme_dark {
-  position: relative;
-  margin: 0 auto;
-  border-spacing: 15px 80px;
-  z-index: 1;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  margin-top: 80px;
-  vertical-align: top;
-}
-
-.table__heading_theme_dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.table__text_theme_dark {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin-top: 20px;
-}
-
 .kaufman__triangle {
   background-image: url(../../images/triangle.svg);
   background-size: contain;
