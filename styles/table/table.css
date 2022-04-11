@@ -1,1 +1,23 @@
+.table {
+  width: 1100px;
+  margin: 0 auto;
+  border-spacing: 20px 60px;
+}
 
+.table__cell {
+  width: 250px;
+  vertical-align: top;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
+}
