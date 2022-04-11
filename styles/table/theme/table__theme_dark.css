@@ -1,6 +1,5 @@
 .table__theme_dark {
   position: relative;
-  margin: 0 auto;
   color: white;
   border-spacing: 15px 80px;
   z-index: 1;
@@ -8,8 +7,6 @@
 
 .table__cell_theme_dark {
   width: 200px;
-  margin-top: 80px;
-  vertical-align: top;
 }
 
 .table__heading_theme_dark {
