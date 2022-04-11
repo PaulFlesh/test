@@ -1,4 +1,6 @@
-
+.section__start {
+  margin: 100px auto 0;
+}
 
 .section-title {
   position: relative;
