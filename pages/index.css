@@ -3,3 +3,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/footer/footer.css);
+
+.page {
+  font-family: 'Inter', 'Arial', sans-serif;
+}
