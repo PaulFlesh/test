@@ -1,3 +1,5 @@
 .places {
   width: 85%;
+  display: grid;
+  
 }
