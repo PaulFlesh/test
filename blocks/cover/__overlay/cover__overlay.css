@@ -1,4 +1,5 @@
 .cover__overlay {
+  position: absolute;
   background: #2a2c2f;
   opacity: .8;
 }
