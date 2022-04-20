@@ -1,7 +1,4 @@
 .places {
   width: 85%;
   margin: 10vh auto 0;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
 }
