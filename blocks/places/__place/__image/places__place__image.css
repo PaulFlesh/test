@@ -1,5 +1,4 @@
 .places__place__image {
-  width: 460px;
-  height: 460px;
+  width: 100%;
   grid-row: span 2;
 }
