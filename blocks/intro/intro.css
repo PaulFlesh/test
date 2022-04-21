@@ -1,4 +1,6 @@
 .intro {
+  display: grid;
+  grid-template-columns: minmax(288px, 820px);
   width: 80%;
   margin: 12vh auto 0;
 }
