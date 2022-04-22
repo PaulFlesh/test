@@ -1,6 +1,6 @@
 .footer__links {
   display: flex;
-  flex-basis: 55vw;
+  flex-basis: 600px;
   justify-content: space-between;
   list-style: none;
   padding: 0;
