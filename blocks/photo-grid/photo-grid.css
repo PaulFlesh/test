@@ -2,6 +2,6 @@
   width: 90%;
   margin: 10vh auto 0;
   display: grid;
-  grid-gap: 1.5vh;
-  grid-template-columns: repeat(4, 25%);
+  grid-gap: 1.5em;
+  grid-template-columns: repeat(4, auto-fit);
 }
