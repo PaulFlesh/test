@@ -1,6 +1,4 @@
 .places {
   width: 80%;
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 4em;
+  margin: 0 auto 80px;
 }
