@@ -1,7 +1,19 @@
 .header {
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  margin: 1em auto 0;
+  width: 1184px;
+  margin: 28px auto 0;
   align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  width: 928px;
+}
+
+@media screen and (max-width: 768px) {
+  width: 720px;
+}
+
+@media screen and (max-width: 320px) {
+  width: 288px;
 }
