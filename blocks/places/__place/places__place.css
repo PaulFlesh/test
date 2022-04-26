@@ -1,13 +1,14 @@
 .places__place {
   margin: 80px auto 0;
   display: grid;
-  grid-template-rows: auto auto 1fr;
-  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: 1fr 1fr;
   grid-gap: 2em 1.5em;
 }
 
 @media screen and (max-width: 320px) {
   .places__place {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 0;
 }
