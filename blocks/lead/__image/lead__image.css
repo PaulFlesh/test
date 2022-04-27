@@ -9,8 +9,16 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .lead__image {
+    width: 768px;
+    margin: 40px 0 0 -24px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__image {
-    margin: 40px 0 0;
+    width: 320px;
+    margin: 40px 0 0 -16px;
   }
 }
