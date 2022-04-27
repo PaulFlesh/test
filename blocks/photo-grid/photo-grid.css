@@ -1,12 +1,10 @@
-/*
 .photo-grid {
-  width: 1184px;
   margin: 0 auto;
   display: grid;
-  grid-gap: 1em;
+  grid-gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
 }
-
+/*
 @media screen and (max-width: 1024px) {
   .photo-grid {
     width: 928px;
@@ -25,10 +23,3 @@
   }
 }
 */
-.photo-grid {
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  grid-template-rows: repeat(2, 100px);
-}
