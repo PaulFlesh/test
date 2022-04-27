@@ -9,17 +9,20 @@
 @media screen and (max-width: 1024px) {
   .photo-grid {
     max-width: 928px;
+    grid-gap: 14px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
     max-width: 720px;
+    grid-gap: 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid {
     max-width: 288px;
+    grid-gap: 12px;
   }
 }
