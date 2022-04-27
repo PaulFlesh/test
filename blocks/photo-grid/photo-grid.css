@@ -1,3 +1,4 @@
+/*
 .photo-grid {
   width: 1184px;
   margin: 0 auto;
@@ -22,4 +23,12 @@
   .photo-grid {
     width: 288px;
   }
+}
+*/
+.photo-grid {
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
