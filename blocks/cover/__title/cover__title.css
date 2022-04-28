@@ -4,3 +4,23 @@
   font-weight: 900;
   text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    max-width: 928px;
+    margin: 48px auto 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    line-height: 35px;
+    font-size: 32px;
+  }
+}
