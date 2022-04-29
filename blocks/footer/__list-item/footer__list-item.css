@@ -6,7 +6,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 760px) {
   .footer__list-item {
     margin: 0 0 10vw 0;
   }
