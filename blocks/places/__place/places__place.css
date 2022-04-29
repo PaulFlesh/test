@@ -3,7 +3,7 @@
   display: grid;
   grid-template-rows: repeat(2, auto);
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2em 1.5em;
+  grid-gap: 48px 4%;
 }
 
 @media screen and (max-width: 560px) {
