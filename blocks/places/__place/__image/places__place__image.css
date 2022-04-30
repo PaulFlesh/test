@@ -2,9 +2,3 @@
   width: 100%;
 }
 
-@media screen and (max-width: 560px) {
-  .places__place__image {
-    width: 100vw;
-    margin: 0 0 0 -5vw;
-  }
-}
