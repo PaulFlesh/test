@@ -1,9 +1,0 @@
-.places__place__website {
-  margin: auto 0 0;
-}
-
-@media screen and (max-width: 620px) {
-  .places__place__website {
-    margin: 0 auto 0 5%;
-  }
-}
