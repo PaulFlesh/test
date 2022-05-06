@@ -1,4 +1,5 @@
 .element {
   background: #fff;
-  border-radius: 8px;
+  border-radius: 10px;
+  overflow: hidden;
 }
