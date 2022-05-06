@@ -1,3 +1,5 @@
 .element__caption {
   display: flex;
+  justify-content: space-between;
+  max-width: 246px;
 }
