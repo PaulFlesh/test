@@ -2,7 +2,7 @@
   background-image: url(../../../images/add-button.svg);
   background-color: #000;
   background-position: 50% 50%;
-  background-size: cover;
+  background-repeat: no-repeat;
   border: 2px solid #fff;
   border-radius: 2px;
   width: 150px;
