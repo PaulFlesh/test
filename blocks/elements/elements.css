@@ -3,3 +3,10 @@
   padding: 0;
   margin: 50px 0 0 0;
 }
+
+@media screen and (max-width: 325px) {
+  .elemetns {
+    flex-direction: column;
+    margin-top: 36px;
+  }
+}
