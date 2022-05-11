@@ -13,15 +13,23 @@
     </header>
     <main class="content">
       <div class="popup">
-        <div class="popup__container">
-          
+        <div class="form">
+          <h2 class="form__heading">Редактировать профиль</h2>
+          <fieldset class="form__fields">
+            <input type="text" class="form__item form__item_title" value="Жак-Ив Кусто">
+            <input type="text" class="form__item form__item_subtitle" value="Исследователь океана">
+            <input type="submit" class="form__submit-button" value="Сохранить"> 
+          </fieldset>
+          <button class="popup__close-button"></button>
         </div>
       </div>
       <section class="profile">
         <img class="profile__avatar" src="./images/avatar.jpg">
         <div class="profile__info">
-          <h2 class="profile__title">Жак-Ив&nbsp;Кусто</h2>
-          <button class="profile__edit-button"></button>
+          <div class="profile__title-container">
+            <h2 class="profile__title">Жак-Ив&nbsp;Кусто</h2>
+            <button class="profile__edit-button"></button>
+          </div>
           <h3 class="profile__subtitle">Исследователь&nbsp;океана</h3>
         </div>
         <button class="profile__add-button"></button>
