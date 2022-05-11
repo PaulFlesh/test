@@ -1,4 +1,4 @@
-function Popup() {
-  var btn = document.getElementByClass('popup');
+function popup() {
+  let btn = document.querySelector('.popup');
   btn.classList.toggle('popup_opened');
 }
