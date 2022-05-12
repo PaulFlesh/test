@@ -12,3 +12,7 @@
   font-weight: 400;
   cursor: pointer;
 }
+
+.form__submit-button:hover {
+  opacity: .8;
+}
