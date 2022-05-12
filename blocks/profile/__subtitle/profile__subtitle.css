@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 325px) {
-  .profile__title {
+  .profile__subtitle {
     line-height: 17px;
     font-size: 14px;
   }
