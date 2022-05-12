@@ -6,3 +6,10 @@
   margin: 16px 0 0;
   padding: 0;
 }
+
+@media screen and (max-width: 325px) {
+  .profile__title {
+    line-height: 17px;
+    font-size: 14px;
+  }
+}
