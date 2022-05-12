@@ -1,4 +1,9 @@
 .content {
-  /*width: 90%;
-  margin: 0 auto;*/
+  
+}
+
+@media screen and (max-width: 990px) {
+  .content {
+    max-width: 90%;
+  }
 }
