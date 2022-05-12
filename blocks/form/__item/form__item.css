@@ -9,5 +9,5 @@
 }
 
 .form__item:focus-visible {
-  border: none;
+  outline: none;
 }
