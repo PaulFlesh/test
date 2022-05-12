@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 325px) {
   .form__submit-button {
-    margin: 25px 0 75px;
+    margin: auto 0 25px;
     height: 46px;
     line-height: 17px;
     font-size: 14px;
