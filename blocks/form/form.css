@@ -1,7 +1,6 @@
 .form {
-  position: fixed;
-  top: 50%;
-  left: 50%;
+  position: relative;
+  margin: 195px auto 0;
   width: 430px;
   height: 330px;
   background: #fff;
