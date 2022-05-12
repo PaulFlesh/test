@@ -3,7 +3,7 @@
 }
 
 @media screen and (max-width: 325px) {
-  .profile {
+  .footer {
     margin-top: 48px;
     max-width: 90%;
   }
