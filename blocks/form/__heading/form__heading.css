@@ -5,3 +5,12 @@
   font-size: 24px;
   font-weight: 900;
 }
+
+@media screen and (max-width: 325px) {
+  .form__heading {
+    margin: 25px 0 75px;
+    line-height: 22px;
+    font-size: 18px;
+  }
+}
+    
