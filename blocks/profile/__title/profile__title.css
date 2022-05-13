@@ -7,9 +7,9 @@
   padding: 0;
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 720px) {
   .profile__title {
-    line-height: 33px;
-    font-size: 27px;
+    line-height: 10.313vw;
+    font-size: 8.438vw;
   }
 }
