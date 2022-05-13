@@ -6,9 +6,13 @@
   justify-items: center;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 720px) {
   .profile__info {
     margin-top: 26px;
+}
+
+@media screen and (max-width: 425px) {
+  .profile__info {
     grid-template-columns: 18px auto 18px;
     gap: 10px 10px;
 }
