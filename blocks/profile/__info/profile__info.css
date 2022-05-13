@@ -3,12 +3,12 @@
   margin: 0;
   grid-template-columns: 24px auto 24px;
   gap: 16px 18px;
-  justify-items: center;
 }
 
 @media screen and (max-width: 750px) {
   .profile__info {
     margin-top: 26px;
+    justify-items: center;
 }
 
 @media screen and (max-width: 425px) {
