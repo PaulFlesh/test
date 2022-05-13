@@ -17,11 +17,11 @@
   opacity: .8;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 470px) {
   .form__submit-button {
     margin: auto 0 25px;
     height: 46px;
-    line-height: 5.313vw;
-    font-size: 4.375vw;
+    line-height: 17px;
+    font-size: 14px;
   }
 }
