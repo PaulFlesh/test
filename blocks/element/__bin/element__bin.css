@@ -1,0 +1,19 @@
+.element__bin {
+  background-image: url(../../../images/bin.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  width: 18px;
+  height: 19px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.element__bin:hover {
+  opacity: .6;
+}
