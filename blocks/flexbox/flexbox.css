@@ -1,4 +1,4 @@
-.about__wrap {
+.flexbox {
   display: flex;
   justify-content: space-between;
 }
