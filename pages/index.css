@@ -10,6 +10,10 @@
 @import url(../blocks/nav/__list-item/nav__list-item.css);
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/content/content.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__wrap/about__wrap.css);
+@import url(../blocks/about/__text-container/about__text-container.css);
+@import url(../blocks/about/__text/about__text.css);
 @import url(../blocks/text/text.css);
 @import url(../blocks/text/_bold/text_bold.css);
 @import url(../blocks/span/span.css);
