@@ -15,7 +15,6 @@
 @import url(../blocks/about/__text/about__text.css);
 @import url(../blocks/text/text.css);
 @import url(../blocks/text/_bold/text_bold.css);
-@import url(../blocks/span/span.css);
-@import url(../blocks/span/_bold/span_bold.css);
+@import url(../blocks/goods/__image/goods__image.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
