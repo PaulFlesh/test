@@ -11,6 +11,8 @@
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/about/about.css);
+@import url(../blocks/about/__text-container/about__text-container.css);
+@import url(../blocks/about/__text/about__text.css);
 @import url(../blocks/flexbox/flexbox.css);
 @import url(../blocks/flexbox/__descr/flexbox__descr.css);
 @import url(../blocks/about/__text/about__text.css);
