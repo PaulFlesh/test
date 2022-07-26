@@ -1,5 +1,5 @@
 .wrapper {
-	height: 350px;
+	height: 230px;
 	margin: 100px auto;
 	position: relative;
 	width: 100%;
@@ -15,10 +15,10 @@
 	overflow: hidden;
 	position: relative;
 	width: inherit;
-	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-	-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 0 14px 12px 0 rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 14px 12px 0 rgba(0, 0, 0, .5);
+	-o-box-shadow: 0 14px 12px 0 rgba(0, 0, 0, .5);
+	box-shadow: 0 14px 12px 0 rgba(0, 0, 0, .5);
 }
 
 .slides {
@@ -38,9 +38,8 @@
 }
 
 .wrapper .controls {
-	left: 50%;
-	margin-left: -98px;
-	position: absolute;
+	margin: 0 auto;
+  width: fit-content;
 }
 
 .wrapper label {
@@ -61,7 +60,7 @@
 }
 
 .wrapper label:after {
-	border: 2px solid #ddd;
+	border: 2px solid #aaa;
 	content: " ";
 	display: block;
 	height: 12px;
@@ -82,7 +81,7 @@
 #slide4:checked ~ .controls label:nth-of-type(4),
 #slide5:checked ~ .controls label:nth-of-type(5),
 #slide6:checked ~ .controls label:nth-of-type(6) {
-	background: #ddd;
+	background: #aaa;
 }
 #slide1:checked ~ .slider > .slide1,
 #slide2:checked ~ .slider > .slide2,
