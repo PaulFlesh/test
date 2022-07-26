@@ -14,10 +14,13 @@
 @import url(../blocks/about/__description/about__description.css);
 @import url(../blocks/about/__text-container/about__text-container.css);
 @import url(../blocks/about/__text/about__text.css);
-@import url(../blocks/flexbox/flexbox.css);
-@import url(../blocks/flexbox/__descr/flexbox__descr.css);
+@import url(../blocks/sliderbox/sliderbox.css);
+@import url(../blocks/sliderbox/__descr/sliderbox__descr.css);
+@import url(../blocks/sliderbox/__image/sliderbox__image.css);
+@import url(../blocks/sliderbox/__title/sliderbox__title.css);
+@import url(../blocks/sliderbox/__text/sliderbox__text.css);
 @import url(../blocks/wrapper/wrapper.css);
-@import url(../blocks/goods/__image/goods__image.css);
+@import url(../blocks/goods/__title/goods__title.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/_ugolok/table_ugolok.css);
 @import url(../blocks/table/_all/table_all.css);
