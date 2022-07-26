@@ -16,6 +16,7 @@
 @import url(../blocks/about/__text/about__text.css);
 @import url(../blocks/text/text.css);
 @import url(../blocks/text/_bold/text_bold.css);
+@import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/goods/__image/goods__image.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/_ugolok/table_ugolok.css);
