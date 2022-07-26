@@ -15,19 +15,19 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__list-item">
-            <a class="links nav__link" href="№contacts">Контакты</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="links nav__link" href="#goods">Комплектующие</a>
+            <a class="links nav__link" href="№goods">Комплектующие</a>
           </li>
           <li class="nav__list-item">
             <a class="links nav__link" href="#pricelist">Прайс-лист</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="links nav__link" href="#contacts">Контакты</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="content">
-      <section class="about">
+      <section id="about">
         <div class="flexbox">
           <div class="flexbox__descr">
             <p class="about__text">
@@ -53,7 +53,7 @@
           </div>
         </div>
       </section>
-      <section class="goods">
+      <section id="goods">
         <h2 class="goods__title">
           Комплектующие для производства пластиковых окон, стеклопакетов и
           москитных сеток.
@@ -136,13 +136,13 @@
           </div>
         </div>
       </section>
-      <section class="pricelist">
-        <table>
+      <section id="pricelist">
+        <table class="table_ugolok">
           <tr>
-            <td>Наименование</td>
-            <td>Размер, мм</td>
-            <td>Кол-во в коробке, шт</td>
-            <td>Цена с НДС (руб.)</td>
+            <th>Наименование</th>
+            <th>Размер, мм</th>
+            <th>Кол-во в коробке, шт</th>
+            <th>Цена с НДС (руб.)</th>
           </tr>
           <tr>
             <td>Уголок дистанционной рамки</td>
@@ -211,7 +211,7 @@
             <td>0,71</td>
           </tr>
         </table>
-        <table>
+        <table class="table_all">
           <tr>
             <td>Наименование</td>
             <td>Материал</td>
