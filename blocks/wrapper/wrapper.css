@@ -1,5 +1,5 @@
 .wrapper {
-	height: 230px;
+	height: 260px;
 	margin: 100px auto;
 	position: relative;
 	width: 100%;
@@ -10,15 +10,15 @@
 }
 
 .slider {
-	background-color: #ddd;
+	background-color: #cef1eb;
 	height: inherit;
 	overflow: hidden;
 	position: relative;
 	width: inherit;
-	-webkit-box-shadow: 0 14px 12px 0 rgba(0, 0, 0, .5);
-	-moz-box-shadow: 0 14px 12px 0 rgba(0, 0, 0, .5);
-	-o-box-shadow: 0 14px 12px 0 rgba(0, 0, 0, .5);
-	box-shadow: 0 14px 12px 0 rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 0 12px 12px 0 rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 12px 12px 0 rgba(0, 0, 0, .5);
+	-o-box-shadow: 0 12px 12px 0 rgba(0, 0, 0, .5);
+	box-shadow: 0 12px 12px 0 rgba(0, 0, 0, .5);
 }
 
 .slides {
