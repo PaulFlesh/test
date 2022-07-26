@@ -31,10 +31,12 @@
 	-moz-transform: scale(1.5);
 	-o-transform: scale(1.5);
 	transform: scale(1.5);
+  /*
 	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
-	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  */
+	transition: opacity ease-in-out .5s;
 }
 
 .wrapper .controls {
