@@ -58,7 +58,7 @@
 }
 
 .wrapper label:after {
-	border: 2px solid #aaa;
+	border: 2px solid #666;
 	content: " ";
 	display: block;
 	height: 12px;
@@ -79,7 +79,7 @@
 #slide4:checked ~ .controls label:nth-of-type(4),
 #slide5:checked ~ .controls label:nth-of-type(5),
 #slide6:checked ~ .controls label:nth-of-type(6) {
-	background: #aaa;
+	background: #666;
 }
 #slide1:checked ~ .slider > .slide1,
 #slide2:checked ~ .slider > .slide2,
