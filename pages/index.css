@@ -25,6 +25,7 @@
 @import url(../blocks/goods/__title/goods__title.css);
 @import url(../blocks/pricelist/pricelist.css);
 @import url(../blocks/pricelist/__title/pricelist__title.css);
+@import url(../blocks/tabs/tabs.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/_ugolok/table_ugolok.css);
 @import url(../blocks/table/_all/table_all.css);

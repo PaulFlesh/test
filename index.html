@@ -172,106 +172,116 @@
         <h2 class="pricelist__title">
           Прайс-лист
         </h2>
-        <table class="table table_ugolok">
-          <tr>
-            <th>Размер, мм</th>
-            <th>Кол-во в коробке, шт</th>
-            <th>Цена с НДС (руб.)</th>
-          </tr>
-          <tr>
-            <td>5,5</td>
-            <td>5000</td>
-            <td>0,31</td>
-          </tr>
-          <tr>
-            <td>7,5</td>
-            <td>5000</td>
-            <td>0,32</td>
-          </tr>
-          <tr>
-            <td>8,5</td>
-            <td>5000</td>
-            <td>0,33</td>
-          </tr>
-          <tr>
-            <td>9,5</td>
-            <td>5000</td>
-            <td>0,33</td>
-          </tr>
-          <tr>
-            <td>11,5</td>
-            <td>4000</td>
-            <td>0,36</td>
-          </tr>
-          <tr>
-            <td>13,5</td>
-            <td>3000</td>
-            <td>0,38</td>
-          </tr>
-          <tr>
-            <td>15,5</td>
-            <td>3000</td>
-            <td>0,41</td>
-          </tr>
-          <tr>
-            <td>17,5</td>
-            <td>3000</td>
-            <td>0,60</td>
-          </tr>
-          <tr>
-            <td>19,5</td>
-            <td>2000</td>
-            <td>0,64</td>
-          </tr>
-          <tr>
-            <td>21,5</td>
-            <td>2000</td>
-            <td>0,67</td>
-          </tr>
-          <tr>
-            <td>23,5</td>
-            <td>2000</td>
-            <td>0,71</td>
-          </tr>
-        </table>
-        <table class="table table_all">
-          <tr>
-            <th>Наименование</th>
-            <th>Материал</th>
-            <th>Кол-во в упаковке</th>
-            <th>Цена с НДС (руб.)</th>
-          </tr>
-          <tr>
-            <td>Z-образное крепление москитной сетки верх-низ, белое</td>
-            <td>АБС</td>
-            <td>3000 пар</td>
-            <td>2,00</td>
-          </tr>
-          <tr>
-            <td>Ручка москитной сетки, белая</td>
-            <td>АБС</td>
-            <td>5000 шт</td>
-            <td>1,45</td>
-          </tr>
-          <tr>
-            <td>Соединитель поперечины, белый</td>
-            <td>АБС</td>
-            <td>-</td>
-            <td>1,30</td>
-          </tr>
-          <tr>
-            <td>Фальцевый вкладыш 171</td>
-            <td>ПВД</td>
-            <td>1000 шт</td>
-            <td>1,05</td>
-          </tr>
-          <tr>
-            <td>Уголок москитной сетки (полый), белый</td>
-            <td>АБС</td>
-            <td>1000 шт</td>
-            <td>3,15</td>
-          </tr>
-        </table>
+        <div class="tabs_container">
+          <input class="hide" type="radio" checked name="tabs" id="tab1"/>
+          <label for="tab1">Таблица 1</label>
+          <div class="tab_content" id="tab_content_1">
+            <table class="table table_ugolok">
+              <tr>
+                <th>Размер, мм</th>
+                <th>Кол-во в коробке, шт</th>
+                <th>Цена с НДС (руб.)</th>
+              </tr>
+              <tr>
+                <td>5,5</td>
+                <td>5000</td>
+                <td>0,31</td>
+              </tr>
+              <tr>
+                <td>7,5</td>
+                <td>5000</td>
+                <td>0,32</td>
+              </tr>
+              <tr>
+                <td>8,5</td>
+                <td>5000</td>
+                <td>0,33</td>
+              </tr>
+              <tr>
+                <td>9,5</td>
+                <td>5000</td>
+                <td>0,33</td>
+              </tr>
+              <tr>
+                <td>11,5</td>
+                <td>4000</td>
+                <td>0,36</td>
+              </tr>
+              <tr>
+                <td>13,5</td>
+                <td>3000</td>
+                <td>0,38</td>
+              </tr>
+              <tr>
+                <td>15,5</td>
+                <td>3000</td>
+                <td>0,41</td>
+              </tr>
+              <tr>
+                <td>17,5</td>
+                <td>3000</td>
+                <td>0,60</td>
+              </tr>
+              <tr>
+                <td>19,5</td>
+                <td>2000</td>
+                <td>0,64</td>
+              </tr>
+              <tr>
+                <td>21,5</td>
+                <td>2000</td>
+                <td>0,67</td>
+              </tr>
+              <tr>
+                <td>23,5</td>
+                <td>2000</td>
+                <td>0,71</td>
+              </tr>
+            </table>
+          </div>
+          <input class="hide" type="radio" name="tabs" id="tab2"/>
+          <label for="tab2">Таблица 2</label>
+          <div class="tab_content" id="tab_content_2">
+            <table class="table table_all">
+              <tr>
+                <th>Наименование</th>
+                <th>Материал</th>
+                <th>Кол-во в упаковке</th>
+                <th>Цена с НДС (руб.)</th>
+              </tr>
+              <tr>
+                <td>Z-образное крепление москитной сетки верх-низ, белое</td>
+                <td>АБС</td>
+                <td>3000 пар</td>
+                <td>2,00</td>
+              </tr>
+              <tr>
+                <td>Ручка москитной сетки, белая</td>
+                <td>АБС</td>
+                <td>5000 шт</td>
+                <td>1,45</td>
+              </tr>
+              <tr>
+                <td>Соединитель поперечины, белый</td>
+                <td>АБС</td>
+                <td>-</td>
+                <td>1,30</td>
+              </tr>
+              <tr>
+                <td>Фальцевый вкладыш 171</td>
+                <td>ПВД</td>
+                <td>1000 шт</td>
+                <td>1,05</td>
+              </tr>
+              <tr>
+                <td>Уголок москитной сетки (полый), белый</td>
+                <td>АБС</td>
+                <td>1000 шт</td>
+                <td>3,15</td>
+              </tr>
+            </table>
+          </div>     
+      </div>
       </section>
       <section id="contacts">
         <h2 class="goods__title">Контакты</h2>
@@ -292,7 +302,6 @@
       <p class="footer__copyright">&copy; 2022. Johnny Blade</p>
     </footer>
   </div>
-  <script type="text/javascript" src="./pages/index.js"></script>
   <p class="ceo" style="display: none;">
     1.Уголок дистанционной рамки 2.Комплектующие для стеклопакетов
     3.Комплектующие для пластиковых окон 4.Уголок москитной сетки
