@@ -21,7 +21,10 @@
 @import url(../blocks/sliderbox/__title/sliderbox__title.css);
 @import url(../blocks/sliderbox/__text/sliderbox__text.css);
 @import url(../blocks/wrapper/wrapper.css);
+@import url(../blocks/goods/goods.css);
 @import url(../blocks/goods/__title/goods__title.css);
+@import url(../blocks/pricelist/pricelist.css);
+@import url(../blocks/pricelist/__title/pricelist__title.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/_ugolok/table_ugolok.css);
 @import url(../blocks/table/_all/table_all.css);
