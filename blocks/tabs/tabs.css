@@ -20,12 +20,14 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
+  cursor: pointer;
 }
 .hide:checked + label {
   background-color :#fff;
   color:#000;
   border-bottom-color:#fff;
   z-index:1;
+  cursor: default;
 }
 .tab_content {
   border: 1px solid grey;
