@@ -1,10 +1,10 @@
 .tabs_container {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  width: 60%;
+  width: 80%;
   margin: 40px auto;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .hide, .tab_content {
   display:none;
@@ -13,7 +13,6 @@
   border: 1px solid grey;
   border-radius: 5px 5px 0 0;
   padding: 8px 16px;
-  display: inline-block;
   background-color:#cef1eb; 
   color: #000;
   order: 0;
@@ -30,6 +29,7 @@
 }
 .tab_content {
   border: 1px solid grey;
+  margin: 0 auto;
   padding: 10px;
   box-shadow: 0 12px 12px 0 rgb(0 0 0 / 50%)
 }
