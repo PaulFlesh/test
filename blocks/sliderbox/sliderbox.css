@@ -1,4 +1,5 @@
 .sliderbox {
   display: grid;
   grid-template-columns: 35% auto;
+  height: inherit;
 }

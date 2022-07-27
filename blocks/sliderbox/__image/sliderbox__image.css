@@ -1,5 +1,5 @@
 .sliderbox__image {
-  width: 330px;
-  height: 224px;
+  width: 100%;
+  height: 100%;
   display: block;
 }
