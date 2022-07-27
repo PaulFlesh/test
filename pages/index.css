@@ -30,5 +30,9 @@
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/_ugolok/table_ugolok.css);
 @import url(../blocks/table/_all/table_all.css);
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__list/contacts__list.css);
+@import url(../blocks/contacts/__list-item/contasts__list-item.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
